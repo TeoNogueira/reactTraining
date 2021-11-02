@@ -1,5 +1,4 @@
 import { RenderingList } from "../renderingList";
-import { Counter } from "../counter";
 
 
 
@@ -17,9 +16,11 @@ export function RenderingItems(props) {
 return(
 
 <div>
+
 <RenderingList unica="Olá"/>
-<br />
-<Counter />
+<RenderingList unica="Olá"/>
+<RenderingList unica="Olá"/>
+<RenderingList unica="Olá"/>
 
 </div>
 

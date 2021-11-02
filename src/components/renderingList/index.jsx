@@ -1,4 +1,4 @@
-
+import '../../styles/repositories.scss';
 
 
 export function RenderingList(props) {
@@ -7,11 +7,14 @@ export function RenderingList(props) {
 return(
 <div>
 
-<ul>Hello Teo!</ul>
+<ul>
+    <li>
+    Hello Teo!
+    </li>
+</ul>
     <h3>{props.unica}</h3>
 </div>
  
 );
 
-    
 }
